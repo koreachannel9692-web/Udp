@@ -270,7 +270,7 @@ bot_state = BotState()
 
 # ==================== PATHS ====================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-TEMPLATE_PATH = os.path.join(BASE_DIR, "templates", "index.html")
+TEMPLATE_PATH = os.path.join(BASE_DIR, "index.html")
 ACCOUNTS_FILE = os.path.join(BASE_DIR, "accounts.json")
 
 
